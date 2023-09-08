@@ -7,10 +7,10 @@ file1="file_pertama.txt"
 file2="file_kedua.txt"
 
 # Isi yang akan ditulis ke file pertama
-isi_file1="Ini adalah isi dari file pertama."
+isi_file1="$1"
 
 # Isi yang akan ditulis ke file kedua
-isi_file2="Ini adalah isi dari file kedua."
+isi_file2="$2"
 
 # Menulis isi ke file pertama
 echo "$isi_file1" > "$file1"
